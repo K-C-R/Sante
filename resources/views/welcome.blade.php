@@ -3,13 +3,6 @@
         	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<!-- #header end -->
-
-		<!-- Slider
-		============================================= -->
 		<section id="slider" class="slider-element dark swiper_wrapper slider-parallax min-vh-75">
 			<div class="slider-inner">
 
@@ -24,7 +17,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)), url('demos/nonprofit/images/slider/femmeEnfant.jpg') no-repeat center center; background-size: cover;"></div>
+							<div class="swiper-slide-bg" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)), url('demos/Litha/apprentisage_femme.jpg') no-repeat center center; background-size: cover;"></div>
 						</div>
 						<div class="swiper-slide dark">
 							<div class="container">
@@ -35,7 +28,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8)), url('demos/nonprofit/images/slider/enfantTelecope.jpg') no-repeat center center; background-size: cover;"></div>
+							<div class="swiper-slide-bg" style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8)), url('demos/litha/thermometre.jpg') no-repeat center center; background-size: cover;"></div>
 						</div>
 					</div>
 					<div class="swiper-navs">
@@ -165,9 +158,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <h3 class="mb-2">Notre mission  <span>&amp;</span> but</h3>
-                                    <div class="svg-line mb-2 clearfix">
-                                        <img src="{{asset('images/1.svg')}}" alt="svg divider" height="10">
-                                    </div>
+
                                     <p class="mb-5">
                                        Assister toute personne sans distinction d'âge, de sexe  ni de religion, besoin de soins de confort ou ayant une perte d'autonomie passagère ou permanente, personne atteinte de la maladie d'Alzheimer ou  d'autres maladies invalidantes,(Maladie de Parkinson, sclérose en plaques, séquelle d'accident vasculaire cérébral…), et/ou  en situation
                                         de handicap où présentant une affection de longue durée (ALD), résident à Ouagadougou
@@ -245,7 +236,7 @@
 
                                 <div class="col-lg-4 mt-5 mt-lg-0">
                                     <div class="clear"></div>
-                                    <img src="demos/nonprofit/images/others/consult.jpg" >
+                                    <img src="demos/litha/Femme_sourire.jpg" >
                                 </div>
                             </div>
                         </div>
