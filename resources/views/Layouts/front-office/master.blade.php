@@ -5,7 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="SemiColonWeb" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="shortcut icon" href="{{ asset('Front/images/favicon.png') }}">
+    <link rel="shortcut icon" href="{{ asset('demos/Litha/LithaSante.jpg') }}">
 
     <!-- Stylesheets ============================================= -->
     <link
@@ -86,12 +86,12 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo" class="me-lg-5">
-							<a href="index.html" class="standard-logo" data-dark-logo="demos/business/images/logo-dark.png"><img src="demos/business/images/logo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo" data-dark-logo="demos/business/images/logo-dark@2x.png"><img src="demos/business/images/logo@2x.png" alt="Canvas Logo"></a>
+							<a href="index.html" class="standard-logo" data-dark-logo="demos/Litha/LithaSante.jpg"><img src="demos/Litha/LithaSante.jpg" alt="LithaSante"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="demos/Litha/LithaSante.jpg"><img src="demos/Litha/LithaSante.jpg" alt="LithaSante"></a>
 						</div><!-- #logo end -->
 
 						<div class="header-misc">
-							<a href="demo-nonprofit-causes-single.html" class="button button-rounded button-light"><div>Contactez-nous</div></a>
+							<a href="{{route('contacte')}}" class="button button-rounded button-light"><div>Contactez-nous</div></a>
 						</div>
 
 						<div id="primary-menu-trigger">
@@ -104,10 +104,10 @@
 
 							<ul class="menu-container align-self-start">
 								<li class="menu-item"><span class="menu-bg col-auto align-self-start d-flex"></span></li>
-								<li class="menu-item current"><a class="menu-link" href="/"><div>Accueil</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="{{route('about')}}"><div>A appros de nous</div></a></li>
+								<li class="menu-item {{Route::currentRouteName()=='welcome' ? 'current' : ''}}"><a class="menu-link" href="/" ><div>Accueil</div></a></li>
+								<li class="menu-item {{Route::currentRouteName()=='about' ? 'current' : ''}}"><a class="menu-link" href="{{route('about')}}"><div>A appros de nous</div></a></li>
 								{{-- <li class="menu-item"><a class="menu-link" href="demo-nonprofit-events.html"><div>Events</div></a></li> --}}
-								<li class="menu-item"><a class="menu-link btn-contact" href="{{route('contacte')}}"><div>contact</div></a></li>
+								<li class="menu-item {{Route::currentRouteName()=='contacte' ? 'current' : ''}}"><a class="menu-link btn-contact" href="{{route('contacte')}}"><div>contact</div></a></li>
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -152,7 +152,7 @@
 
                         <div class="col-md-6 d-md-flex flex-md-column align-items-md-end mt-4 mt-md-0">
                             <div class="copyrights-menu copyright-links clearfix">
-                                <a href="#">Savoir plus sur nous</a>/<a href="#">Contactez-nous</a>
+                                <a href="{{route('contacte')}}">Savoir plus sur nous</a>/<a href="{{route('contacte')}}">Contactez-nous</a>
                             </div>
                         </div>
                     </div>

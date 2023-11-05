@@ -1,5 +1,5 @@
 <x-master-layout>
-    <div id="slider" class="slider-element dark py-0" style="background-size: cover; background-image: url('demos/covid-care/images/3.jpg'); background-position: center center; background-repeat: no-repeat;">
+    <div id="slider" class="slider-element dark py-0" style="background-size: cover; background-image: url('demos/litha/2.jpg'); background-position: center center; background-repeat: no-repeat;">
 
         <div class="container">
             <div class="row text-center py-5 min-vh-md-75 justify-content-center align-items-center">

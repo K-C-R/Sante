@@ -13,7 +13,7 @@
 								<div class="slider-caption">
 									<div>
 										<h2 class="nott" data-animate="fadeInUp">Soins d’hygiène et de maintien à domicile</h2>
-										<a href="#" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light shadow nott ls0 ms-0 mt-4">Contactez-nous</a>
+										<a href="{{route('about')}}" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light shadow nott ls0 ms-0 mt-4">Contactez-nous</a>
 									</div>
 								</div>
 							</div>
@@ -24,11 +24,11 @@
 								<div class="slider-caption">
 									<div>
 										<h2 class="nott" data-animate="fadeInUp">Soins de qualité et adapter aux besoins de chaque patient </h2>
-										<a href="#" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light shadow nott ls0 ms-0 mt-4">Contactez-nous</a>
+										<a href="{{route('about')}}" data-animate="fadeInUp" data-delay="400" class="button button-rounded button-large button-light shadow nott ls0 ms-0 mt-4">Contactez-nous</a>
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8)), url('demos/litha/thermometre.jpg') no-repeat center center; background-size: cover;"></div>
+							<div class="swiper-slide-bg" style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8)), url('demos/litha/4.jpg') no-repeat center center; background-size: cover;"></div>
 						</div>
 					</div>
 					<div class="swiper-navs">
@@ -109,7 +109,7 @@
 									<div class="fbox-content px-0">
 										<h3 class="nott ls0">Confiance</h3>
 										<p> Des intervenants de confiance, sélectionnés et formés</p>
-										<a href="#" class="button button-rounded button-border nott ls0 fw-normal ms-0 mt-4">Contatez-nous</a>
+										<a href="{{route('about')}}" class="button button-rounded button-border nott ls0 fw-normal ms-0 mt-4">Contatez-nous</a>
 									</div>
 								</div>
 							</div>
@@ -122,7 +122,7 @@
 									<div class="fbox-content px-0">
 										<h3 class="nott ls0">Transparence</h3>
 										<p>La transparence des informations et de la relation contractuelle</p>
-										<a href="#" class="button button-rounded button-border nott ls0 fw-normal ms-0 mt-4">Contatez-nous</a>
+										<a href="{{route('about')}}" class="button button-rounded button-border nott ls0 fw-normal ms-0 mt-4">Contatez-nous</a>
 									</div>
 								</div>
 							</div>
@@ -134,7 +134,7 @@
 									<div class="fbox-content px-0">
 										<h3 class="nott ls0"> Personnalisé</h3>
 										<p>Un suivi personnalisé pour chaque patient <br><br> </p>
-										<a href="#" class="button button-rounded button-border nott ls0 fw-normal ms-0 mt-4">Contatez-nous</a>
+										<a href="{{route('about')}}" class="button button-rounded button-border nott ls0 fw-normal ms-0 mt-4">Contatez-nous</a>
 									</div>
 								</div>
 							</div>
@@ -147,7 +147,7 @@
 									<div class="fbox-content px-0">
 										<h3 class="nott ls0">Ethique & confidentialité</h3>
 										<p>Une éthique exigeante basée sur le respect et la confidentialité</p>
-										<a href="#" class="button button-rounded button-border nott ls0 fw-normal ms-0 mt-4">Contatez-nous</a>
+										<a href="{{route('about')}}" class="button button-rounded button-border nott ls0 fw-normal ms-0 mt-4">Contatez-nous</a>
 									</div>
 								</div>
 							</div>
@@ -171,7 +171,7 @@
                                                     <img src="{{asset('images/8.svg')}}" alt="Featured Icon 1" width="50">
                                                 </div>
                                                 <div class="fbox-content">
-                                                    <h3 class="nott ls0"><a href="#" class="text-dark">Suivi des patients </a></h3>
+                                                    <h3 class="nott ls0"><a href="{{route('about')}}" class="text-dark">Suivi des patients </a></h3>
                                                     <p>Le suivi des patients post hospitalisation</p>
                                                 </div>
                                             </div>
@@ -182,7 +182,7 @@
                                                     <img src="demos/nonprofit/images/icons/health.svg" alt="Featured Icon 2" width="50">
                                                 </div>
                                                 <div class="fbox-content">
-                                                    <h3 class="nott ls0"><a href="#" class="text-dark">Soins d'hygiène </a></h3>
+                                                    <h3 class="nott ls0"><a href="{{route('about')}}" class="text-dark">Soins d'hygiène </a></h3>
                                                     <p>Réalisation des soins d'hygiène de confort et des soins  préventifs</p>
                                                 </div>
                                             </div>
@@ -193,7 +193,7 @@
                                                     <img src="demos/nonprofit/images/icons/education.svg" alt="Featured Icon 3" width="50">
                                                 </div>
                                                 <div class="fbox-content">
-                                                    <h3 class="nott ls0"><a href="#" class="text-dark">Activités motrices </a></h3>
+                                                    <h3 class="nott ls0"><a href="{{route('about')}}" class="text-dark">Activités motrices </a></h3>
                                                     <p>Aidez aux activités motrices et aux déplacements par des techniques de mobilisation</p>
                                                 </div>
                                             </div>
@@ -204,7 +204,7 @@
                                                     <img src="{{asset('images/1.svg')}}" alt="Featured Icon 4" width="50">
                                                 </div>
                                                 <div class="fbox-content">
-                                                    <h3 class="nott ls0"><a href="#" class="text-dark">Surveillance de la glycémie </a></h3>
+                                                    <h3 class="nott ls0"><a href="{{route('about')}}" class="text-dark">Surveillance de la glycémie </a></h3>
                                                     <p>Surveillance de la glycémie capillaire prise des constantes</p>
                                                 </div>
                                             </div>
@@ -215,7 +215,7 @@
                                                     <img src="{{asset('images/4.svg')}}" alt="Featured Icon 5" width="50">
                                                 </div>
                                                 <div class="fbox-content">
-                                                    <h3 class="nott ls0"><a href="#" class="text-dark">Gestion des urgences </a></h3>
+                                                    <h3 class="nott ls0"><a href="{{route('about')}}" class="text-dark">Gestion des urgences </a></h3>
                                                     <p>Gestion des urgences à domicile et référence dans un centre adapter</p>
                                                 </div>
                                             </div>
@@ -226,7 +226,7 @@
                                                     <img src="{{asset('images/5.svg')}}" alt="Featured Icon 6" width="50">
                                                 </div>
                                                 <div class="fbox-content">
-                                                    <h3 class="nott ls0"><a href="#" class="text-dark">Apporter une écoute </a></h3>
+                                                    <h3 class="nott ls0"><a href="{{route('about')}}" class="text-dark">Apporter une écoute </a></h3>
                                                     <p>Apporter une écoute un soutien moral(compagnie jeu, lecture  ..)</p>
                                                 </div>
                                             </div>
@@ -235,116 +235,29 @@
                                 </div>
 
                                 <div class="col-lg-4 mt-5 mt-lg-0">
-                                    <div class="clear"></div>
-                                    <img src="demos/litha/Femme_sourire.jpg" >
+                                    <!-- <div class="clear"></div>
+                                    <img src="demos/litha/Femme_sourire.jpg" > -->
+                                    <h4>Gallery</h4>
+                                    <div class="fslider flex-thumb-grid grid-8 bottommargin-sm" data-arrows="false" data-animation="fade" data-thumbs="true">
+                                        <div class="flexslider">
+                                            <div class="slider-wrap">
+                                                <div class="slide" data-thumb="demos/litha/1.jpg"><img src="demos/litha/1.jpg" alt="Image"></div>
+                                                <div class="slide" data-thumb="demos/litha/2.jpg"><img src="demos/litha/2.jpg" alt="Image"></div>
+                                                <div class="slide" data-thumb="demos/litha/3.jpg"><img src="demos/litha/3.jpg" alt="Image"></div>
+                                                <div class="slide" data-thumb="demos/litha/4.jpg"><img src="demos/litha/4.jpg" alt="Image"></div>
+                                                <div class="slide" data-thumb="demos/litha/5.jpg"><img src="demos/litha/5.jpg" alt="Image"></div>
+                                                <div class="slide" data-thumb="demos/litha/6.jpg"><img src="demos/litha/6.jpg" alt="Image"></div>
+                                                <div class="slide" data-thumb="demos/litha/7.jpg"><img src="demos/litha/7.jpg" alt="Image"></div>
+                                                <div class="slide" data-thumb="demos/litha/8.jpg"><img src="demos/litha/8.jpg" alt="Image"></div>
+                                                <div class="slide" data-thumb="demos/litha/9.jpg"><img src="demos/litha/9.jpg" alt="Image"></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
 				</div>
-
-                {{-- <div class="container clearfix">
-
-                    <div class="row col-mb-50 mb-0">
-                        <div class="col-md-7">
-                            <div class="accordion accordion-lg clearfix">
-
-                                <div class="accordion-header">
-                                    <div class="accordion-icon">
-                                        <i class="accordion-closed icon-ok-circle"></i>
-                                        <i class="accordion-open icon-remove-circle"></i>
-                                    </div>
-                                    <div class="accordion-title">
-                                        Soins à domicile
-                                    </div>
-                                </div>
-                                <div class="accordion-content clearfix" style="display: none;">Litha Sante propose des soins à domicile pour les patients qui ont besoin d'assistance pour leur récupération ou pour gérer des maladies chroniques. Ces services comprennent la surveillance de l'état de santé, l'aide à la mobilité, les soins d'hygiène de confort et préventifs, ainsi que l'assistance 24/7.</div>
-
-                                <div class="accordion-header">
-                                    <div class="accordion-icon">
-                                        <i class="accordion-closed icon-ok-circle"></i>
-                                        <i class="accordion-open icon-remove-circle"></i>
-                                    </div>
-                                    <div class="accordion-title">
-                                        Soins palliatifs
-                                    </div>
-                                </div>
-                                <div class="accordion-content clearfix" style="display: none;">Litha Sante propose des soins palliatifs pour les patients atteints de maladies chroniques avancées ou en phase terminale. Les soins palliatifs sont destinés à soulager la douleur et les symptômes, ainsi qu'à améliorer la qualité de vie du patient et de sa famille.</div>
-
-                                <div class="accordion-header">
-                                    <div class="accordion-icon">
-                                        <i class="accordion-closed icon-ok-circle"></i>
-                                        <i class="accordion-open icon-remove-circle"></i>
-                                    </div>
-                                    <div class="accordion-title">
-                                        Coordination des soins
-                                    </div>
-                                </div>
-                                <div class="accordion-content clearfix" style="display: none;"> Litha Sante aide à coordonner les soins pour les patients qui ont besoin de plusieurs professionnels de la santé. Ceci comprend la coordination entre les médecins, les infirmiers, les travailleurs sociaux et les thérapeutes, pour s'assurer que les patients reçoivent des soins cohérents et de qualité.</div>
-
-                                <div class="accordion-header">
-                                    <div class="accordion-icon">
-                                        <i class="accordion-closed icon-ok-circle"></i>
-                                        <i class="accordion-open icon-remove-circle"></i>
-                                    </div>
-                                    <div class="accordion-title">
-                                        Soins spécialisés
-                                    </div>
-                                </div>
-                                <div class="accordion-content clearfix" style="display: none;">Litha Sante propose également des soins spécialisés pour les patients qui ont besoin d'une attention particulière. Ceci comprend des services de santé mentale, de soins respiratoires, de soins pédiatriques et de soins de la vision.</div>
-
-                                <div class="accordion-header accordion-active">
-                                    <div class="accordion-icon">
-                                        <i class="accordion-closed icon-ok-circle"></i>
-                                        <i class="accordion-open icon-remove-circle"></i>
-                                    </div>
-                                    <div class="accordion-title">
-                                        Services de soutien
-                                    </div>
-                                </div>
-                                <div class="accordion-content clearfix" style="display: block;">Litha Sante offre des services de soutien pour aider les patients et leur famille à gérer les défis liés à la santé. Ceci comprend des services de counseling, des groupes de soutien, des services de transport et de livraison de médicaments à domicile, ainsi que des services de gestion des tâches ménagères.</div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-5">
-                            <h4>Quelque temoignage<span>.</span></h4>
-                            <ul class="testimonials-grid grid-1">
-                                <li class="grid-item pt-0">
-                                    <div class="testimonial">
-                                        <div class="testi-image">
-                                            <a href="#"><img src="images/testimonials/testimo2.jpg" alt="Customer Testimonails"></a>
-                                        </div>
-                                        <div class="testi-content">
-                                            <p>Je suis reconnaissante envers Litha Sante pour leur assistance professionnelle et leur soutien affectueux pendant ma convalescence après mon accident de voiture. Leur équipe dévouée m'a aidée à retrouver ma mobilité et mon autonomie grâce à des soins de qualité. </p>
-                                            <div class="testi-meta">
-                                              Madame Ouedraogo
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="grid-item pb-0">
-                                    <div class="testimonial">
-                                        <div class="testi-image">
-                                            <a href="#"><img src="images/testimonials/testimo1.jpg" alt="Customer Testimonails"></a>
-                                        </div>
-                                        <div class="testi-content">
-                                            <p>Litha Sante a été d'une aide précieuse pour moi pendant ma rééducation après une intervention chirurgicale à la hanche pendant la période des examens. Leur équipe de professionnels attentionnés m'a aidé à retrouver ma mobilité et ma confiance en moi grâce à leur suivi attentif et leurs soins personnalisés. </p>
-                                            <div class="testi-meta">
-                                               Linda Kabore
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-                </div> --}}
                 <section id="content">
                     <div class="content-wrap">
 
@@ -364,7 +277,7 @@
                                     <div class="row feature-box-border col-mb-30 justify-content-center align-items-center">
                                         <div class="col-md-6 feature-box fbox-color">
                                             <div class="fbox-icon">
-                                                <a href="#"><i>1</i></a>
+                                                <a href="{{route('about')}}"><i>1</i></a>
                                             </div>
                                             <div class="fbox-content">
                                                 <h3 class="nott text-larger mb-2">Suivi des patients post-hospitalisation</h3>
@@ -379,7 +292,7 @@
 
                                         <div class="col-md-6 feature-box fbox-border fbox-light fbox-effect">
                                             <div class="fbox-icon">
-                                                <a href="#"><i>2</i></a>
+                                                <a href="{{route('about')}}"><i>2</i></a>
                                             </div>
                                             <div class="fbox-content">
                                                 <h3 class="nott text-larger mb-2">Soins d'hygiène de confort et préventifs</h3>
@@ -395,7 +308,7 @@
 
                                         <div class="col-md-6 feature-box fbox-border fbox-light fbox-effect">
                                             <div class="fbox-icon">
-                                                <a href="#"><i>3</i></a>
+                                                <a href="{{route('about')}}"><i>3</i></a>
                                             </div>
                                             <div class="fbox-content">
                                                 <h3 class="nott text-larger mb-2">Aide à la mobilisation</h3>
@@ -410,7 +323,7 @@
 
                                         <div class="col-md-6 feature-box fbox-border fbox-light fbox-effect">
                                             <div class="fbox-icon">
-                                                <a href="#"><i>4</i></a>
+                                                <a href="{{route('about')}}"><i>4</i></a>
                                             </div>
                                             <div class="fbox-content">
                                                 <h3 class="nott text-larger mb-2">Surveillance de l'état de santé</h3>
@@ -425,7 +338,7 @@
 
                                         <div class="col-md-6 feature-box fbox-border fbox-light fbox-effect noborder">
                                             <div class="fbox-icon">
-                                                <a href="#"><i>5</i></a>
+                                                <a href="{{route('about')}}"><i>5</i></a>
                                             </div>
                                             <div class="fbox-content">
                                                 <h3 class="nott text-larger mb-2"> 24/7 Assitance</h3>
